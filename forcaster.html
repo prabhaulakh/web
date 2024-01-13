@@ -39,7 +39,7 @@
 
     <!--end header-->
 
-    <section class=" pt-100 f_p">
+    <section class="f_p">
 
         <div class="container">
 		 <div class="straight_heading text-center  ">
@@ -94,7 +94,7 @@
           legend: { position: 'bottom' }
         };
 
-        var chart = new google.visualization.BarChart(document.getElementById('curve_chart'));
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
 
         chart.draw(data, options);
       }
